@@ -1,0 +1,98 @@
+body{
+    background-color: hsl(27, 66%, 92%);
+    font-family: 'DM Sans';
+  }
+
+@media screen and (min-width:576px) {
+  .container-1{
+    height: 6rem;
+    width: 28rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 7rem;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 15px;
+  }
+  .container-2{
+    height: 25rem;
+    width: 28rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 15px;
+  }
+  .days-spending{
+    margin-left: 2rem;
+  }
+  .circle{
+    height: 5rem;
+    padding-top: 1.75rem;
+    padding-left: 21.75rem;
+    width: 50%;
+  }
+  .headings{
+    width: 50%;
+    float: left;
+  }
+  .charts{
+    height: 11.5rem;
+  }
+  .break{
+    border-top: 1px solid hsl(27, 66%, 92%);
+    border-radius:2px;
+    width: 80%;
+  }
+  .sec-1{
+    width: 50%;
+    float: left;
+    /* padding-left: 2rem; */
+    /* margin-right: 2rem; */
+  }
+  .sec-2{
+    width: 50%;
+    float: right;
+    margin-top: 19px;
+    /* margin-left: 2rem; */
+    /* margin-right: 2rem; */
+  }
+  .bal-amt{
+     margin-left:2rem;
+     color:white;
+     font-size: normal;
+  }
+  .ROC{
+    margin-right: 2rem;
+    margin-bottom: 1px;
+    text-align: right;
+  }
+  .Month{
+    margin-right: 2rem;
+    text-align: right;
+    margin-top: 4px;
+    font-weight: normal;
+    color: hsl(186, 34%, 60%);
+  }
+  .text{
+    margin-left: 2rem;
+    margin-bottom: 4px;
+    font-weight: normal;
+    color: hsl(186, 34%, 60%);
+  }
+  .total{
+    margin-top: 4px;
+    margin-left: 2rem;
+  }
+  .summary{
+
+  }
+  .my-bal{
+    margin-bottom: -12px;
+    margin-left:2rem;
+    color:white;
+    font-weight: 400;
+  }
+  .days-spending{
+    padding-top: 0.5rem;
+  }
+}
