@@ -2,99 +2,6 @@ body{
     background-color: hsl(27, 66%, 92%);
     font-family: 'DM Sans';
   }
-.mon{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.tue{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.wed{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.thu{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.fri{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.sat{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.sun{
-  margin-top: 11rem;
-  margin-left: 25%;
-  color: hsl(186, 34%, 60%);
-}
-.monday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  /* padding-bottom: 3rem; */
-  height: 3rem;
-  border-radius: 6px;
-  margin-left: 2rem;
-  float: left;
-}
-.tuesday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-
-}
-.wednesday{
-  background-color: hsl(186, 34%, 60%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-}
-.thursday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-}
-.friday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-}
-.saturday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-}
-.sunday{
-  background-color: hsl(10, 79%, 65%);
-  width: 9%;
-  height: 10rem;
-  border-radius: 6px;
-  margin-left: 1rem;
-  float: left;
-}
 @media screen and (min-width:576px) {
   .container-1{
     height: 6rem;
@@ -127,9 +34,33 @@ body{
     width: 50%;
     float: left;
   }
-  .charts{
-    height: 9rem;
-    margin-bottom: 5rem;
+  .chart {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 18px;
+    height: 10rem;
+    margin-left: 1.5rem;
+    margin-right: 1.75rem;
+  }
+  [class*="bar"]{
+    grid-row-start: 1;
+    grid-row-end: 101;
+    border-radius: 5px;
+    background-color: #ff4136;
+    width: 110%;
+  }
+  [class*="bar"]:hover{
+    background-color: hsl(186, 34%, 60%);
+  }
+  h5{
+    flex: 1;
+    color: hsl(186, 34%, 60%);
+  }
+  .days{
+    margin-bottom: 0px;
+    margin-left: 2rem;
+    display: flex;
+    margin-top: 0px;
   }
   .break{
     border-top: 1px solid hsl(27, 66%, 92%);
