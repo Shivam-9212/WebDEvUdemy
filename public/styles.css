@@ -55,7 +55,6 @@ body{
   h5{
     flex: 1;
     color: hsl(186, 34%, 60%);
-    margin-top: 0.75rem;
   }
   .days{
     padding-left: 1rem;
